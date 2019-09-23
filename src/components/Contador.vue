@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       contador: 0,
     }
@@ -16,8 +16,8 @@ export default {
 }
 </script>
 
-<style>
-  #app button{
+<style scoped>
+  button{
     width: 30px;
     height: 30px;
     border-radius: 15px;
@@ -26,8 +26,10 @@ export default {
     margin-left: 20px;
     color: #fff;
   }
-  #app span{
-    
+  span{
+    border-bottom: 1px solid #ccc;
+    height: 30px;
+    padding: 5px 25px;
     
   }
 </style>

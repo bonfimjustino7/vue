@@ -1,13 +1,15 @@
 <template>
   <div id="app">    
-    <app-contadores />
+    <app-contador v-for="c in 5" :key="c"></app-contador>
   </div>
 </template>
 
 <script>
 
+import Contador from './components/Contador'
+
 export default {
-  
+  components:{ 'app-contador' : Contador }
   
 }
 </script>
